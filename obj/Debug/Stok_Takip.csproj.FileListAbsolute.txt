@@ -1,0 +1,17 @@
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.csprojAssemblyReference.cache
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.csproj.GenerateResource.cache
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\bin\Debug\Stok_Takip.exe.config
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\bin\Debug\Stok_Takip.exe
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\bin\Debug\Stok_Takip.pdb
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Properties.Resources.resources
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.exe
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.pdb
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.anasayfa.resources
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Stok.resources
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.satisislem.resources
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Cari_Hesap.resources
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.MusteriEkle.resources
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.SatınAlmaIs.resources
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.Kasa.resources
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.KullanıcıGrs.resources
+C:\Users\MONSTER\Desktop\C#_Takip\Stok_Takip\Stok_Takip\obj\Debug\Stok_Takip.YönetimKarar.resources

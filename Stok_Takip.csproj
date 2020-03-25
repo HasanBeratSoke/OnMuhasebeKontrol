@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DEC16485-D5DB-4CBC-B389-631F24688250}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Stok_Takip</RootNamespace>
+    <AssemblyName>Stok_Takip</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anasayfa.Designer.cs">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıGrs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullanıcıGrs.Designer.cs">
+      <DependentUpon>KullanıcıGrs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kasa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasa.Designer.cs">
+      <DependentUpon>Kasa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SatisIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisIslem.Designer.cs">
+      <DependentUpon>SatisIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MuhasebeDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MuhasebeDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriEkle.Designer.cs">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SatınAlmaIs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatınAlmaIs.Designer.cs">
+      <DependentUpon>SatınAlmaIs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stok.Designer.cs">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YönetimKarar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YönetimKarar.Designer.cs">
+      <DependentUpon>YönetimKarar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="anasayfa.resx">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıGrs.resx">
+      <DependentUpon>KullanıcıGrs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasa.resx">
+      <DependentUpon>Kasa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisIslem.resx">
+      <DependentUpon>SatisIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriEkle.resx">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatınAlmaIs.resx">
+      <DependentUpon>SatınAlmaIs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stok.resx">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YönetimKarar.resx">
+      <DependentUpon>YönetimKarar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="MuhasebeDataSet.xsc">
+      <DependentUpon>MuhasebeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet.xss">
+      <DependentUpon>MuhasebeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet1.xsc">
+      <DependentUpon>MuhasebeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet1.xss">
+      <DependentUpon>MuhasebeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet10.xsc">
+      <DependentUpon>MuhasebeDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet10.xss">
+      <DependentUpon>MuhasebeDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet11.xsc">
+      <DependentUpon>MuhasebeDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet11.xss">
+      <DependentUpon>MuhasebeDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet12.xsc">
+      <DependentUpon>MuhasebeDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet12.xss">
+      <DependentUpon>MuhasebeDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet13.xsc">
+      <DependentUpon>MuhasebeDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet13.xss">
+      <DependentUpon>MuhasebeDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet2.xsc">
+      <DependentUpon>MuhasebeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet2.xss">
+      <DependentUpon>MuhasebeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet3.xsc">
+      <DependentUpon>MuhasebeDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet3.xss">
+      <DependentUpon>MuhasebeDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet4.xsc">
+      <DependentUpon>MuhasebeDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet4.xss">
+      <DependentUpon>MuhasebeDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet5.xsc">
+      <DependentUpon>MuhasebeDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet5.xss">
+      <DependentUpon>MuhasebeDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet6.xsc">
+      <DependentUpon>MuhasebeDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet6.xss">
+      <DependentUpon>MuhasebeDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet7.xsc">
+      <DependentUpon>MuhasebeDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet7.xss">
+      <DependentUpon>MuhasebeDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet8.xsc">
+      <DependentUpon>MuhasebeDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet8.xss">
+      <DependentUpon>MuhasebeDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet9.xsc">
+      <DependentUpon>MuhasebeDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="MuhasebeDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MuhasebeDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MuhasebeDataSet9.xss">
+      <DependentUpon>MuhasebeDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\structure1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block-user.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
